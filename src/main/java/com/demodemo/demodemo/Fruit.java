@@ -1,6 +1,6 @@
 package com.demodemo.demodemo;
 
-public class fruit {
+public class Fruit {
 
     private String name;
 
@@ -8,7 +8,7 @@ public class fruit {
 
     private int price;
 
-    public fruit(String name, int ranking, int price) {
+    public Fruit(String name, int ranking, int price) {
         this.name = name;
         this.ranking = ranking;
         this.price = price;
