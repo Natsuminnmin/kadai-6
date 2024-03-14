@@ -10,14 +10,14 @@ import java.util.Map;
 @RestController
 public class HelloController {
 
-@GetMapping("/fruit")
-public List<fruit> fruit(){
-    List<fruit> fruits = List.of (
-    new fruit("apple",1,200),
-    new fruit("banana", 5, 99),
-    new fruit("strawberry", 2, 400),
-    new fruit("avocado", 3, 100),
-    new fruit("orange", 4, 150));
-return fruits;
-}
+    @GetMapping("/fruit")
+    public List<fruit> fruit() {
+        List<fruit> fruits = List.of(
+                new fruit("apple", 1, 200),
+                new fruit("banana", 5, 99),
+                new fruit("strawberry", 2, 400),
+                new fruit("avocado", 3, 100),
+                new fruit("orange", 4, 150));
+        return fruits;
+    }
 }
